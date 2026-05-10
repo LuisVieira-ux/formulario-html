@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto de formulário desenvolvido em 
+        HTML5 para fins de estudo e prática de desenvolvimento web.">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <header> <!--Cabeçalho principal-->
+            <h1>Projeto de Formulário em HTML</h1>
+            <p>"Nos dê sua opinião sobre este 
+                simples projeto feito em HTML."</p>
+        </header>
+        <main>
+            <section> <!--Seção do formulário-->
+                <form>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome"
+                        placeholder="Digite seu nome" required><br>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" autocomplete="email" id="email" name="email"
+                        placeholder="Digite seu email" required><br>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone"
+                        placeholder="Digite seu telefone" required><br>
+
+                        <label for="comentario">Comentário:</label><br>
+                        <textarea id="comentario" name="comentario"
+                        rows="5" cols="25" placeholder="Deixe seu feedback" required></textarea><br>
+                        <button type="submit">
+                            Enviar Feedback
+                        </button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer> <!--Rodapé-->
+             <p>Obrigado por visitar nosso site! 
+                Esperamos receber seu feedback em breve.</p>
+        </footer>
+    </body>
+</html>
